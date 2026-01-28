@@ -7,10 +7,35 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+	<form method="post">
+	<h1>Job Application Form</h1>
+	<label for="name">Name</label>
+	<input id="name" type="text" required ><br>
+	<label for="email">Email</label>
+	<input id="email" type="email" required ><br>
+	<label>Gender</label>
+	<label for="male">Male</label>
+	<input type="radio" name="gender"required >
+	<label>Female</label>
+	<input type="radio" name="gender"required ><br>
+	<label for="laptop">Laptop Brands</label>
+	<select id="laptop">
+		<option>select</option>
+		<option>Apple</option>
+		<option>Asus</option>
+		<option>HP</option>
+	</select><br>
+	<label for="age">Age</label>
+	<input id="age" type="number" required ><br>
+	<label for="dob">Date of Birth</label>
+	<input id="dop" type="date" required ><br>
+	<label for="password">Password</label>
+	<input id="password" type="password" required ><br>
+	<label for="portfolio">Portfolio URL</label>
+	<input id="portfolio" type="url">
+	<label>Submit Button</label>
+	<button type='submit' >
+	</form>
 </body>
 
 </html>
